@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
+
+    <!-- 给当前provider起名,在monitor或管理工具中区别是哪个provider -->
+    <dubbo:application name="dubbo-order"/>
+
+    <!-- 配置注册中心 address:注册中心的ip和端口  protocol使用哪种注册中心 -->
+    <dubbo:registry address="192.168.42.129:2181" protocol="zookeeper"></dubbo:registry>
+
+    <!-- 配置注解扫描 -->
+    <dubbo:annotation package="com.ego.order.service.impl"/>
+</beans>
