@@ -43,7 +43,7 @@
         <commons-fileupload.version>1.4</commons-fileupload.version>
         <ftpclient.version>3.6</ftpclient.version>
         <dubbo.version>2.7.2</dubbo.version>
-        <netty-all.version>4.1.36.Final</netty-all.version>
+        <netty-all.version>4.1.42.Final</netty-all.version>
         <curator.version>4.2.0</curator.version>
         <zkClient.version>0.11</zkClient.version>
         <solr-solrj.version>5.3.2</solr-solrj.version>
