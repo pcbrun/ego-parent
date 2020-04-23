@@ -39,7 +39,7 @@
         <mybatis-spring.version>2.0.0</mybatis-spring.version>
         <log4j.version>1.2.17</log4j.version>
         <mysql-connector-java.version>8.0.15</mysql-connector-java.version>
-        <jackson.version>2.9.9</jackson.version>
+        <jackson.version>2.9.10.4</jackson.version>
         <commons-fileupload.version>1.4</commons-fileupload.version>
         <ftpclient.version>3.6</ftpclient.version>
         <dubbo.version>2.7.2</dubbo.version>
